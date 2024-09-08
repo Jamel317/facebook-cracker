@@ -62,7 +62,7 @@ def search():
 		
 #welcome 
 def welcome():
-	wel = """
+	  print("
 
         +=========================================+
         |..........   Facebook Crack   ...........|
@@ -73,7 +73,7 @@ def welcome():
         +=========================================+
         |..........  Facebook Cracker  ...........|
         +-----------------------------------------+\n\n
-"""
+")
 	total = open(passwordlist,"r")
 	total = total.readlines()
 	print wel 
